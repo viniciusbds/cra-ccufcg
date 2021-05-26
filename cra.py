@@ -53,7 +53,13 @@ def cra(semestres):
 				produto += nota * carga
 				horas += carga
 
-	return (1.0 * produto) / horas
+	result = 0
+	if horas > 0:
+		result = (1.0 * produto) / horas
+	else:
+		result = 0
+
+	return result
 
 
 def progresso(semestres):
