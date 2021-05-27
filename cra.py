@@ -14,7 +14,7 @@ S4 = {"psoft": (-1, 60), "bd": (-1, 60), "oac": (-1, 60), "loac": (-1, 60), "pro
 
 S5 = {"plp": (-1, 60),  "so": (-1, 60), "proj.so": (-1, 60), "eng.software": (-1, 60), "direito": (-1, 60)}
 
-S6 = { "tc": (-1, 60), "as":(-1, 60), "redes": (-1, 60), "estatistica": (-1, 60), "concorrente": (-1, 60), "didatica-p2": (0, 30)}
+S6 = { "tc": (-1, 60), "as":(-1, 60), "redes": (-1, 60), "estatistica": (-1, 60), "concorrente": (-1, 60), "didatica-p2": (-1, 30)}
 
 S7 = {"atal": (-1, 60), "met.cientifica": (-1, 60), "i.a": (-1, 60), "segurança": (-1,60)}
 
