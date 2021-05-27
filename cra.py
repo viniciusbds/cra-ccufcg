@@ -49,7 +49,7 @@ def cra(semestres):
 		for nome in semestre.keys():
 			disciplina = semestre[nome]
 			nota, carga  = disciplina[0],  disciplina[1]
-			if (nota >= 0): # disciplinas com notas iguais a zero são ignoradas, ou seja, ainda não foram cursadas
+			if (nota >= 0): # disciplinas com notas menores que zero são ignoradas, ou seja, ainda não foram cursadas
 				produto += nota * carga
 				horas += carga
 
