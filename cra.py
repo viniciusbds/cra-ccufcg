@@ -14,13 +14,15 @@ S4 = {"probabilidade": (-1, 60), "psoft": (-1, 60), "plp": (-1, 60), "Bd 1": (-1
 
 S5 = {"estatistica": (-1, 60),  "AS": (-1, 60), "ES": (-1, 60), "redes": (-1, 60), "SO": (-1, 60), "TC": (-1, 60)}
 
-S6 = { "MC": (-1, 60), "concorrente":(-1, 60), "IA": (-1, 60), "opt.especifica1": (-1, 60), "opt.especifica2": (-1, 60)}
+S6 = {"MC": (-1, 60), "concorrente":(-1, 60), "IA": (-1, 60), "opt.especifica1": (-1, 60), "opt.especifica2": (-1, 60)}
 
 S7 = {"ATAL": (-1, 60), "compiladores": (-1, 60), "opt.especifica1": (-1, 60), "opt.especifica2": (-1,60), "opt geral": (-1, 60)}
 
 S8 = {"projeto1": (-1, 60), "PTCC": (-1, 60), "opt.especifica1": (-1, 60), "opt.especifica2": (-1,60), "opt geral": (-1, 60)}
 
 S9 = {"projeto2": (-1, 60), "TCC": (-1, 60), "opt.especifica1": (-1, 60), "opt.especifica2": (-1,60), "opt.especifica3": (-1,60), "opt.especifica4": (-1, 60)}
+
+semestres = [S1, S2, S3, S4, S5, S6, S7, S8, S9]
 
 
 def cra(semestres):
@@ -54,8 +56,6 @@ def progresso(semestres):
 				cadeiras_pagas += 1
 
 	return cadeiras_pagas
-
-semestres = [S1, S2, S3, S4, S5, S6, S7, S8, S9]
 
 print("## Informações Acadêmicas ##\n")
 print("CADEIRAS PAGAS: %d / 51" % progresso(semestres))
