@@ -22,7 +22,11 @@ S8 = {"projeto1": (-1, 60), "PTCC": (-1, 60), "opt.especifica1": (-1, 60), "opt.
 
 S9 = {"projeto2": (-1, 60), "TCC": (-1, 60), "opt.especifica1": (-1, 60), "opt.especifica2": (-1,60), "opt.especifica3": (-1,60), "opt.especifica4": (-1, 60)}
 
-semestres = [S1, S2, S3, S4, S5, S6, S7, S8, S9]
+
+semestres_cursados = []
+semestre_atual = S1
+semestres_matriculados = semestres_cursados.copy()
+semestres_matriculados.append(semestre_atual)
 
 
 def cra(semestres):
@@ -57,6 +61,13 @@ def progresso(semestres):
 
 	return cadeiras_pagas
 
+
 print("## Informações Acadêmicas ##\n")
-print("CADEIRAS PAGAS: %d / 51" % progresso(semestres))
-print("CRA: %.2f" % cra(semestres))
+print("CRA Atual")
+print("CADEIRAS PAGAS: %d / 51" % progresso(semestres_cursados))
+print("CRA: %.2f\n" % cra(semestres_cursados))
+
+print("Previsão do CRA")
+print("CADEIRAS PAGAS: %d / 51" % progresso(semestres_matriculados))
+print("CRA: %.2f\n" % cra(semestres_matriculados))
+
