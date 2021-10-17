@@ -6,6 +6,7 @@ Script que armazena as notas das disciplinas e calcula o cra durante graduação
 
 
 # OBS: PREENCHA AS DISCIPLINAS CURSADAS POR CADA SEMESTRE NA TUPLA ,EX: "DISCIPLINAX" = (NOTA,CARGAHORARIA)
+# -1 indica que a disciplina não foi cursada
 
 S1 = {"FMCCI": (-1, 60), "p1": (-1, 60), "lp1": (-1, 60), "IC": (-1, 60), "opt geral": (-1, 60)}
 
