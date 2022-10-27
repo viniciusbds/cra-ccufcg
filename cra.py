@@ -79,4 +79,3 @@ print("CRA: %.2f\n" % cra(semestres_cursados))
 print("Previsão do CRA")
 print("CADEIRAS PAGAS: %d / 51" % progresso(semestres_matriculados))
 print("CRA: %.2f\n" % cra(semestres_matriculados))
-
