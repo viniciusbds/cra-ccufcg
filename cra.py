@@ -4,7 +4,7 @@
 Script que armazena as notas das disciplinas e calcula o cra durante graduação de Ciência da Computação - UFCG
 '''
 
-# OBS: PREENCHA AS DISCIPLINAS CURSADAS POR CADA SEMESTRE NA TUPLA ,EX: "DISCIPLINAX" = (NOTA,CARGAHORARIA)
+# OBS: PREENCHA AS DISCIPLINAS CURSADAS POR CADA SEMESTRE NA TUPLA. EX: "DISCIPLINAX" = (NOTA,CARGAHORARIA)
 # -1 indica que a disciplina não foi cursada
 
 S1 = {"FMCCI": (-1, 60), "P1": (-1, 60), "LP1": (-1, 60), "IC": (-1, 60), "Opt geral": (-1, 60)}
