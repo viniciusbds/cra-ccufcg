@@ -4,6 +4,9 @@
 Script que armazena as notas das disciplinas e calcula o cra durante graduação de Ciência da Computação - UFCG
 '''
 
+# OBS: PREENCHA AS DISCIPLINAS CURSADAS POR CADA SEMESTRE NA TUPLA ,EX: "DISCIPLINAX" = (NOTA,CARGAHORARIA)
+# -1 indica que a disciplina não foi cursada
+
 S1 = {"FMCCI": (-1, 60), "P1": (-1, 60), "LP1": (-1, 60), "IC": (-1, 60), "Opt geral": (-1, 60)}
 
 S2 = {"FMCCII": (-1, 60), "Cálculo1": (-1, 60), "P2": (-1, 60), "LP2": (-1, 60), "Optativa geral": (-1, 60)}
@@ -23,8 +26,14 @@ S8 = {"Projeto1": (-1, 60), "PTCC": (-1, 60), "Opt.especifica1": (-1, 60), "Opt.
 S9 = {"Projeto2": (-1, 60), "TCC": (-1, 60), "Opt.especifica1": (-1, 60), "Opt.especifica2": (-1,60), "Opt.especifica3": (-1,60), "opt.especifica4": (-1, 60)}
 
 
+# OBS: ADICIONE OS SEMESTRES CURSADOS E O ATUAL
 semestres_cursados = []
 semestre_atual = S1
+
+
+# ------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
 semestres_matriculados = semestres_cursados.copy()
 semestres_matriculados.append(semestre_atual)
 
