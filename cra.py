@@ -4,23 +4,23 @@
 Script que armazena as notas das disciplinas e calcula o cra durante graduação de Ciência da Computação - UFCG
 '''
 
-S1 = {"FMCCI": (-1, 60), "p1": (-1, 60), "lp1": (-1, 60), "IC": (-1, 60), "opt geral": (-1, 60)}
+S1 = {"FMCCI": (-1, 60), "P1": (-1, 60), "LP1": (-1, 60), "IC": (-1, 60), "Opt geral": (-1, 60)}
 
-S2 = {"FMCCII": (-1, 60), "calculo1": (-1, 60), "p2": (-1, 60), "lp2": (-1, 60), "optativa geral": (-1, 60)}
+S2 = {"FMCCII": (-1, 60), "Cálculo1": (-1, 60), "P2": (-1, 60), "LP2": (-1, 60), "Optativa geral": (-1, 60)}
 
-S3 = {"a.linear": (-1, 60), "logica": (-1, 60), "calculo2": (-1, 60), "EDA": (-1, 60), "LEDA": (-1, 60), "grafos": (-1, 60)}
+S3 = {"A.linear": (-1, 60), "Lógica": (-1, 60), "Cálculo2": (-1, 60), "EDA": (-1, 60), "LEDA": (-1, 60), "Grafos": (-1, 60)}
 
-S4 = {"probabilidade": (-1, 60), "psoft": (-1, 60), "plp": (-1, 60), "Bd 1": (-1, 60), "OAC": (-1, 60), "LOAC": (-1, 60)}
+S4 = {"Probabilidade": (-1, 60), "PSOFT": (-1, 60), "PLP": (-1, 60), "BD 1": (-1, 60), "OAC": (-1, 60), "LOAC": (-1, 60)}
 
-S5 = {"estatistica": (-1, 60),  "AS": (-1, 60), "ES": (-1, 60), "redes": (-1, 60), "SO": (-1, 60), "TC": (-1, 60)}
+S5 = {"Estatística": (-1, 60),  "AS": (-1, 60), "ES": (-1, 60), "Redes": (-1, 60), "SO": (-1, 60), "TC": (-1, 60)}
 
-S6 = {"MC": (-1, 60), "concorrente":(-1, 60), "IA": (-1, 60), "opt.especifica1": (-1, 60), "opt.especifica2": (-1, 60)}
+S6 = {"MC": (-1, 60), "Concorrente":(-1, 60), "IA": (-1, 60), "Opt.especifica1": (-1, 60), "Opt.especifica2": (-1, 60)}
 
-S7 = {"ATAL": (-1, 60), "compiladores": (-1, 60), "opt.especifica1": (-1, 60), "opt.especifica2": (-1,60), "opt geral": (-1, 60)}
+S7 = {"ATAL": (-1, 60), "Compiladores": (-1, 60), "Opt.especifica1": (-1, 60), "Opt.especifica2": (-1,60), "Opt geral": (-1, 60)}
 
-S8 = {"projeto1": (-1, 60), "PTCC": (-1, 60), "opt.especifica1": (-1, 60), "opt.especifica2": (-1,60), "opt geral": (-1, 60)}
+S8 = {"Projeto1": (-1, 60), "PTCC": (-1, 60), "Opt.especifica1": (-1, 60), "Opt.especifica2": (-1,60), "Opt geral": (-1, 60)}
 
-S9 = {"projeto2": (-1, 60), "TCC": (-1, 60), "opt.especifica1": (-1, 60), "opt.especifica2": (-1,60), "opt.especifica3": (-1,60), "opt.especifica4": (-1, 60)}
+S9 = {"Projeto2": (-1, 60), "TCC": (-1, 60), "Opt.especifica1": (-1, 60), "Opt.especifica2": (-1,60), "Opt.especifica3": (-1,60), "opt.especifica4": (-1, 60)}
 
 
 semestres_cursados = []
