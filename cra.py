@@ -60,7 +60,7 @@ def cra(semestres):
 
 def progresso(semestres):
 	cadeiras_pagas = 0
-	
+
 	for semestre in semestres:
 		for nome in semestre.keys():
 			disciplina = semestre[nome]
@@ -71,11 +71,10 @@ def progresso(semestres):
 	return cadeiras_pagas
 
 
-print("## Informações Acadêmicas ##\n")
-print("CRA Atual")
-print("CADEIRAS PAGAS: %d / 51" % progresso(semestres_cursados))
-print("CRA: %.2f\n" % cra(semestres_cursados))
-
-print("Previsão do CRA")
-print("CADEIRAS PAGAS: %d / 51" % progresso(semestres_matriculados))
-print("CRA: %.2f\n" % cra(semestres_matriculados))
+print("## Informações Acadêmicas ##\n\n"
+ 	  "CRA Atual\n"
+      f"CADEIRAS PAGAS: {progresso(semestres_cursados)}/ 51" "\n"
+      f"CRA: {cra(semestres_cursados):.2f}\n\n"
+	  "Previsão do CRA\n"
+	  f"CADEIRAS PAGAS: {progresso(semestres_matriculados)} / 51\n"
+	  f"CRA: {cra(semestres_matriculados):.2f}")
